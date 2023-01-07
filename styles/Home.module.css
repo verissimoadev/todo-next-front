@@ -257,6 +257,12 @@
   }
 }
 
+.title {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: xx-large;
+}
+
 @media (prefers-color-scheme: dark) {
   .vercelLogo {
     filter: invert(1);
