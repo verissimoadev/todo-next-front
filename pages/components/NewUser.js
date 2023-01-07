@@ -40,7 +40,7 @@ export function NewUser() {
         placeholder="Próximo Tarefa"
         onChange={(e) => setName(e.target.value)}
       />
-      <Button onChange={(e) => setName(e.target.value)} colorScheme="whatsapp">
+      <Button onClick={handleCreateUser} colorScheme="whatsapp">
         +
       </Button>
     </form>

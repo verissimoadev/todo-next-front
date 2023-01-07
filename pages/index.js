@@ -6,7 +6,13 @@ import { Stack } from "@chakra-ui/react";
 
 export default function Home() {
   return (
-    <Stack alignItems="center" padding="2.5rem">
+    <Stack
+      backgroundColor="black"
+      minHeight="100vh"
+      alignItems="center"
+      padding="2.5rem"
+      color="white"
+    >
       <h1 className={styles.title}>To Do List</h1>
       <ClientOnly>
         <Users />
